@@ -25,7 +25,6 @@ body {
   z-index: 2;
   background: #fff;
   mix-blend-mode: difference;
-  transition: scale 300ms;
 }
 
 .cursorGrow ∼ img:hover {
