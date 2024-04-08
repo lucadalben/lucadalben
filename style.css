@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: none;
+}
+
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+  background-color: black;
+  font-size: 16px;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  color: white;
+}
+
+/* CURSOR */
+
+.cursor {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  z-index: 2;
+  background: #fff;
+  mix-blend-mode: difference;
+  transition: scale 300ms;
+}
+
+.cursorGrow ∼ img:hover {
+  scale: (8);
+}
+
+/* Animation */
+
+.container,
+.box {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* HEADER */
+
+.header {
+  /*background: black; */
+  mix-blend-mode: difference;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar {
+  padding: 10px 10px;
+}
+
+.navbar-box {
+  display: flex;
+  position: relative;
+  align-items: inline-flex;
+  justify-content: flex-end;
+}
+
+a {
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+/* BIO */
+
+.description {
+  width: 100%;
+  display: flex;
+  padding: 50px 20px 30px 20px;
+}
+
+.text {
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+/* SLIDER */
+
+.container {
+  padding: 5px;
+  width: 50%;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.slider {
+  position: relative;
+  margin: 0px;
+  flex-basis: 100%;
+}
+
+@media (max-width: 767px) {
+  .text {
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .container {
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+.slides {
+  position: relative;
+  margin: 0px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.slider img {
+  flex: 1 0 50%;
+  scroll-snap-align: start;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.slider-nav {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  transform: translateX(50%);
+  z-index: 1;
+}
+
+.caption {
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  font-size: 1rem;
+  line-height: 1.1rem;
+}
+
+.category {
+  font-style: italic;
+}
+
+img:hover {
+  filter: invert(1);
+  transition: 0.6s ease;
+}
+
+/* Next and previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Footer Section*/
+.footer {
+  padding: 20px 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer p {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0;
+}

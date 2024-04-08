@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- GLOBAL-->
+    <link rel="shorcut icon" type="x-icon" href="..." />
+    <link
+      href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro");
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.about.css" />
+    <title>Luca Dal Ben</title>
+    <link rel="icon" href="./img/Image woody/Risorsa 3.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <!--CURSOR-->
+    <div class="cursor"></div>
+
+    <script>
+      const cursor = document.querySelector('.cursor');
+      document.addEventListener('mousemove', (e) =>{
+        cursor.style.left = e.pageX + 'px';
+        cursor.style.top = e.pageY + 'px';
+      })
+
+      cursorScale.forEach(link => {
+        link.addEventListener('mouseleave', () => {
+          cursor.classList.remove('grow');
+        });
+        link.addEventListener('mousemove', () => {
+          cursor.classList.add('grow');
+        })
+      })
+    </script>
+
+    <!--Header-->
+    <div class="header">
+      <div class="navbar">
+        <a class="cursor-scale small" href="index.html">Works</a>
+      </div>
+      <div class="navbar-box"> 
+        <div class="navbar">
+          <a  class="cursor-scale small" href="pg.html">Experiments</a>
+        </div>
+        <div class="navbar">
+          <a  class="cursor-scale small" href="about.html">About</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Info-->
+    <div class="main">
+      <div class="container">
+        
+          <div class="description">
+            <p>
+              I was born and raised in a small town in Veneto, a region in northern Italy. After high school, I moved to Milan to start my bachelor's degree at the Politecnico. 
+              <br>
+              Over the years, my passion and interest in communication and graphic design has become stronger and stronger. I am interested in both printed and digital artifacts and always curious about media and techniques.
+            </p>
+            <p>
+             <p id="education">
+              Education
+              <br>
+              <br>
+              2021—on going
+              <br>
+              <br>
+              <br>
+              2023
+              <br>
+              <br>
+              <br>
+              2017—2020
+             </p>
+             <p id="education">
+              <br>
+              <br>
+              Communication Design at
+              <br>
+              Politecnico di Milano
+              <br>
+              <br>
+              Erasmus experience at
+               <br>
+               FH Aachen (DE)
+               <br>
+               <br>
+               Interior Design at
+               <br>
+               Politecnico di Milano
+             </p>
+            </p>
+           </p>
+           <p id="work">
+            Working Experience
+            <br>
+            <br>
+            09/2023—12/2023
+           </p>
+           <p id="work">
+            <br>
+            <br>
+            Graphic design intern at
+             <br>
+             Better Days
+           </p>
+          </div>
+          <div class="contacts">
+            <p>
+            <a id="number" href="tel:+393458123347">+39 3458123347</a>
+            <br>
+            <a id="mail" href="mailto:luca.dalben98@gmail.com">luca.dalben98@gmail.com</a>
+            <br>
+            <a id="behance" href="https://www.behance.net/lucadalben9861">behance</a>
+            <br>
+            <a id="linkedin" href="https://www.linkedin.com/in/luca-dal-ben-6385b7289/">linkedin</a>
+            </p>
+          </div>
+          <div class="imagewoody">
+            <a href="https://www.instagram.com/lucassstation/">
+              <img src="./img/Image woody/Risorsa 4.png" />
+            </a> 
+          </div>
+          <div class="download">
+            <div id="donwloadtitle">
+              <p>Download</p>
+              <br>
+            </div>
+            <div class="link-download">
+              <a id="portfolio" class="buttons" href="https://drive.google.com/drive/folders/1B_Pj41Dol6DNTgxeq-eOikNJsBU9XcN3">Portfolio</a>
+              <br>
+              <a id="cv" class="buttons" href="https://drive.google.com/drive/folders/1B_Pj41Dol6DNTgxeq-eOikNJsBU9XcN3">Cv</a>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

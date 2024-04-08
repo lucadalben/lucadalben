@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- GLOBAL-->
+    <link rel="shorcut icon" type="x-icon" href="..." />
+    <link
+      href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro");
+    </style>
+    <link rel="stylesheet" type="text/css" href="pg.css" />
+    <script src="script.js"></script>
+    <title>Luca Dal Ben</title>
+    <link rel="icon" href="./img/Image Woody/Risorsa 3.png" type="image/x-icon">
+  </head>
+
+  <body> 
+    <!--CURSOR-->
+    <div class="cursor"></div>
+
+    <script>
+      const cursor = document.querySelector('.cursor');
+      document.addEventListener('mousemove', (e) =>{
+        cursor.style.left = e.pageX + 'px';
+        cursor.style.top = e.pageY + 'px';
+      })
+
+      cursorScale.forEach(link => {
+        link.addEventListener('mouseleave', () => {
+          cursor.classList.remove('grow');
+        });
+        link.addEventListener('mousemove', () => {
+          cursor.classList.add('grow');
+        })
+      })
+    </script>
+
+    <!--Header-->
+    <div class="header">
+      <div class="navbar">
+        <a class="cursor-scale small" href="index.html">Works</a>
+      </div>
+      <div class="navbar-box"> 
+        <div class="navbar">
+          <a  class="cursor-scale small" href="pg.html">Experiments</a>
+        </div>
+        <div class="navbar">
+          <a  class="cursor-scale small" href="about.html">About</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Description-->
+    <div class="description">
+      <div class="text">
+        Here are some renders, projects and images made over the years that have not been used, made to learn new skills or just for fun :)
+      </div>
+    </div>
+
+    <!--Projects-->
+      <div class="main">
+
+        <section class="container">
+          <div class="slider">
+            <div class="slides">
+              <img id="slide" class="image" src="./img/Playground/1.1.png" style="width:100%"/>
+            </div>
+            
+          </div>
+          <div class="caption">
+            <a>Poster made for AIGHT Magazine
+              <br>
+              2023
+            </a>
+          </div>
+        </section>
+
+        <section class="container">
+          <div class="slider">
+            <div class="slides">
+              <img id="slide" class="image" src="./img/Playground/1.png" style="width:100%"/>
+            </div>
+            
+          </div>
+          <div class="caption">
+            <a>
+              Textures experiments using clouds filter in Adobe PS
+              <br>
+              2022
+            </a>
+          </div>
+        </section>
+
+        <section class="container">
+          <div class="slider">
+            <div class="slides">
+              <img id="slide" class="image" src="./img/Playground/2.png" style="width:100%" />
+            </div>
+          </div>
+          
+          <div class="caption">
+            <a>
+              Abstract topography 3D model and render
+              <br>
+              2021
+            </a>
+          </div>
+        </section>
+
+        <section class="container">
+          <div class="slider">
+            <div class="slides">
+              <img id="slide" class="image" src="./img/Playground/3.png" style="width:100%" />
+            </div>
+          </div>
+          
+          <div class="caption">
+            <a>
+              Lettering
+              <br>
+              2021
+            </a>
+          </div>
+        </section>
+
+        <section class="container">
+          <div class="slider">
+            <div class="slides">
+              <img id="slide" class="image" src="./img/Playground/4.png" style="width:100%" />
+            </div>
+          </div>
+          
+          <div class="caption">
+            <a>
+              Abstract 3D shape and render
+              <br>
+              2021
+            </a>
+          </div>
+        </section>
+
+        <section class="container">
+          <div class="slider">
+            <div class="slides">
+              <img id="slide" class="image" src="./img/Playground/5.png" style="width:100%" />
+            </div>
+          </div>
+          
+          <div class="caption">
+            <a>
+              Abstract 3D shape and render
+              <br>
+              2021
+            </a>
+          </div>
+        </section>
+      </div>
+      <div class="footer">
+      <p>LDB@2023<!--Hey there! I am <s>using</s> looking for an interniship--></p>
+      </div>
+    </div>
+  </body>
+</html>

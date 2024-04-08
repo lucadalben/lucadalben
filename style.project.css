@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: none;
+}
+
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+  background-color: black;
+  font-size: 16px;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  color: white;
+}
+
+/* CURSOR */
+
+.cursor {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  z-index: 2;
+  background: #fff;
+  mix-blend-mode: difference;
+  transition: scale 300ms;
+}
+
+.cursorGrow ∼ img:hover {
+  scale: (8);
+}
+
+/* HEADER */
+
+.header {
+  /*background: black; */
+  mix-blend-mode: difference;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar {
+  padding: 10px 20px;
+}
+
+.navbar-box {
+  display: flex;
+  position: relative;
+  align-items: inline-flex;
+  justify-content: flex-end;
+}
+
+a {
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+/* BODY */
+
+.main {
+  background-color: black;
+  margin-top: 50px black;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: space-between;
+}
+
+/*Text*/
+
+.container {
+  width: 50%;
+  position: relative;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: space-between;
+}
+
+.box {
+  width: 50%;
+  position: relative;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: space-around;
+}
+
+#categories,
+#details,
+#team,
+#members,
+#description {
+  align-items: space-around;
+  object-fit: cover;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  font-weight: 600;
+  margin: 20px;
+  height: 20%;
+}
+
+#description {
+  padding-right: 20px;
+}
+
+@media (max-width: 1000px) {
+  .text {
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .box {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 50%;
+  }
+
+  #categories,
+  #details,
+  #team,
+  #members,
+  #description,
+  #link {
+    align-items: space-around;
+    object-fit: cover;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    font-weight: 600;
+  }
+}
+
+.buttons {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 0px;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
+  display: block;
+}
+
+/*Images*/
+
+.collection {
+  padding: 0px;
+  margin: 0px;
+  object-fit: fill;
+}
+
+.showcase {
+  object-fit: fill;
+}
+
+img {
+  width: 100%;
+  object-fit: fill;
+}
+
+/* Video */
+
+video {
+  width: 100%;
+}
+
+/* NEXT-PREV BUTTON */
+
+.next-prev-button {
+  /*background: black; */
+  mix-blend-mode: difference;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1;
+}
+
+.bar {
+  padding: 10px 20px 100px 20px;
+}
+
+a {
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+/*FOOTER*/
+.footer {
+  padding: 20px 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer p {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0;
+}

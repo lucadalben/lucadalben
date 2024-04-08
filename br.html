@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<htlm lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- GLOBAL-->
+    <link rel="shorcut icon" type="x-icon" href="..." />
+    <link
+      href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro");
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.project.css" />
+    <script src="script.js"></script>
+    <title>Luca Dal Ben</title>
+    <link
+      rel="icon"
+      href="./img/Image Woody/Risorsa 3.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <!--CURSOR-->
+    <div class="cursor"></div>
+
+    <script>
+      const cursor = document.querySelector('.cursor');
+      document.addEventListener('mousemove', (e) =>{
+        cursor.style.left = e.pageX + 'px';
+        cursor.style.top = e.pageY + 'px';
+      })
+
+      cursorScale.forEach(link => {
+        link.addEventListener('mouseleave', () => {
+          cursor.classList.remove('grow');
+        });
+        link.addEventListener('mousemove', () => {
+          cursor.classList.add('grow');
+        })
+      })
+    </script>
+
+    <!--Header-->
+    <div class="header">
+      <div class="navbar">
+        <a class="cursor-scale small" href="index.html">Works</a>
+      </div>
+      <div class="navbar-box"> 
+        <div class="navbar">
+          <a  class="cursor-scale small" href="pg.html">Experiments</a>
+        </div>
+        <div class="navbar">
+          <a  class="cursor-scale small" href="about.html">About</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="main">
+      <div class="showcase">
+        <img id="large-image" src="./img/Bricc/1.png" alt="GIF" style="width:100%;">
+      </div>
+
+      <div class="container">
+        <div class="box">
+          <div class="text" id="categories">
+            <p>
+              Title
+              <br />
+              Year
+              <br />
+              Role
+            </p>
+          </div>
+
+          <div class="text" id="details">
+            <p>
+              Bricc
+              <br />
+              2021
+              <br />
+              Concept,
+              <br>
+              branding, 
+              <br>
+              illustrations
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="text" id="team">
+            <p>Individual</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="collection">
+          <img src="./img/Bricc/2.png" style="object-fit:scale-down;"></img>
+        </div> 
+      </div>
+      
+      <div class="box">
+        <div class="collection">
+          <img src="./img/Bricc/3.png" style="object-fit:scale-down;"></img>
+        </div> 
+      </div>
+
+      <div class="container">
+        <div class="text" id="description">
+          <p>
+            Bricc is the project of a botanical bar for the restaurant Pierino Penati, located in the Brianza, in northern Italy. In order to involve a target of young people from 18 to 35 years old, we decided to convey the values of our project through the reference to the traditional dialect, bre.k (mountain hill) Bricc, communicating the values of territoriality and refinement. The aromatic herbs, peculiarities of the Montevecchia territory, characterize the cocktails with that personal and non-replicable touch, helping to make them unique.
+          </p>
+        </div> 
+      </div>
+
+      <div class="box">
+        <div class="collection">
+          <img src="./img/Bricc/4.png" style="width:100%"></img>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="collection">
+          <img src="./img/Bricc/5.png" style="width:100%"></img>
+        </div>
+      </div>
+      
+      <!--Next-Prev Buttons-->
+      <div class="next-prev-button">
+        <div class="bar">
+          <a href="dmf.html">← Previus project</a>
+        </div>
+        <div class="bar">
+          <a href="mm.html">Next projects →</a>
+        </div>
+      </div>
+      
+      <!--FOOTER-->
+
+      <div class="footer">
+        <p>LDB@2023<!--Hey there! I am <s>using</s> looking for an interniship--></p>
+        </div>
+    </div>
+  </body>
+</htlm>
