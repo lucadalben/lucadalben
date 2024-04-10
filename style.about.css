@@ -204,3 +204,11 @@ p {
   border: 2px solid white;
   border-radius: 0.5rem;
 }
+
+.buttons:hover {
+  color: grey;
+}
+
+img:hover {
+  opacity: 50%;
+}
