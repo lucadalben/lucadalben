@@ -116,6 +116,14 @@ img {
 }
 
 @media (max-width: 767px) {
+  * {
+    cursor: none;
+  }
+  
+  .cursor{
+    opacity: 0%;
+  }
+
   .container {
     display: flex;
     flex-wrap: wrap;
