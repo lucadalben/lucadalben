@@ -113,7 +113,7 @@ a:hover {
   flex-basis: 100%;
 }
 
- .slide {
+ /*.slide {
   position: relative;
   margin: 0px;
   display: flex;
@@ -125,7 +125,7 @@ a:hover {
   scroll-snap-align: start;
   object-fit: cover;
   justify-content: center;
-}
+}*/
 
 .caption {
   margin: 10px 10px 20px 10px;
