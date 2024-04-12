@@ -100,6 +100,7 @@ a:hover {
 .container {
   padding: 5px;
   width: 50%;
+  border: 1px solid red;
 }
 
 .main {
