@@ -116,14 +116,14 @@ a:hover {
   border: 1px soldi green;
 }
 
- /*.slide {
+ .slides {
   position: relative;
   margin: 0px;
   display: flex;
   overflow-x: auto;
 }
 
-.slider img {
+/*.slider img {
   flex: 1 0 50%;
   scroll-snap-align: start;
   object-fit: cover;
