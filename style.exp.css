@@ -27,10 +27,6 @@ body {
   mix-blend-mode: difference;
 }
 
-.cursor ~ img:hover {
-  transform: scale(3);
-}
-
 /* Animation */
 
 .container,
