@@ -99,7 +99,7 @@ a:hover {
   line-height: 3rem;
 }
 
-/* SLIDER */
+/* PROJECTS */
 
 .container {
   padding: 5px;
@@ -112,13 +112,13 @@ a:hover {
   justify-content: flex-start;
 }
 
-.slider {
+.box {
   position: relative;
   margin: 0px;
   flex-basis: 100%;
 }
 
-.slides {
+/* .slides {
   position: relative;
   margin: 0px;
   display: flex;
@@ -132,7 +132,7 @@ a:hover {
   justify-content: center;
 }
 
-/* .slider-nav {
+ .slider-nav {
   display: flex 
   justify-content: center;
   column-gap: 1rem;
