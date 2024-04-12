@@ -113,7 +113,7 @@ a:hover {
   flex-basis: 100%;
 }
 
-/* .slides {
+ .slides {
   position: relative;
   margin: 0px;
   display: flex;
@@ -127,7 +127,7 @@ a:hover {
   justify-content: center;
 }
 
- .slider-nav {
+/* .slider-nav {
   display: flex 
   justify-content: center;
   column-gap: 1rem;
