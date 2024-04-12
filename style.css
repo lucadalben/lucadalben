@@ -139,7 +139,8 @@ a:hover {
 } */
 
 .caption {
-  padding: 30px;
+  margin: 30px;
+  width: 100%;
   font-weight: 600;
   padding: 0px;
   font-size: 1rem;
