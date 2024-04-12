@@ -118,6 +118,10 @@ a:hover {
   flex-basis: 100%;
 }
 
+.description {
+  padding: 20px;
+}
+
 @media (max-width: 767px) {
   * {
     cursor: none;
