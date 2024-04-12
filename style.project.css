@@ -27,10 +27,6 @@ body {
   mix-blend-mode: difference;
 }
 
-.cursorGrow ∼ img:hover {
-  scale: (8);
-}
-
 /* HEADER */
 
 .header {
