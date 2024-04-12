@@ -98,7 +98,7 @@ a:hover {
 /* PROJECTS */
 
 .main {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
