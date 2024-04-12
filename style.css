@@ -97,30 +97,35 @@ a:hover {
 
 /* PROJECTS */
 
-.main {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
 .container {
   padding: 5px;
   width: 50%;
-  border: 1px solid red;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .box {
   position: relative;
   margin: 0px;
   flex-basis: 100%;
-  border: 1px solid green;
 }
 
- .slides {
+.slides {
   position: relative;
   margin: 0px;
   display: flex;
   overflow-x: auto;
+}
+
+.caption {
+  font-weight: 600;
+  padding: 10px;
+  font-size: 1rem;
+  line-height: 1.1rem;
 }
 
 /*.slider img {
@@ -129,14 +134,6 @@ a:hover {
   object-fit: cover;
   justify-content: center;
 }*/
-
-.caption {
-  margin: 10px 10px 20px 10px;
-  font-weight: 600;
-  padding: 0px;
-  font-size: 1rem;
-  line-height: 1.1rem;
-}
 
 .category {
   font-style: italic;
