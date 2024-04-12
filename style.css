@@ -35,6 +35,7 @@ body {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
@@ -105,12 +106,14 @@ a:hover {
 .container {
   padding: 5px;
   width: 50%;
+  border: 1px solid red;
 }
 
 .box {
   position: relative;
   margin: 0px;
   flex-basis: 100%;
+  border: 1px soldi green;
 }
 
  /*.slide {
