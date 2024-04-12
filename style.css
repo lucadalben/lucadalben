@@ -96,15 +96,16 @@ a:hover {
 
 /* PROJECTS */
 
-.container {
-  padding: 5px;
-  width: 50%;
-}
-
 .main {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  align-items: inline-flex;
+}
+
+.container {
+  padding: 5px;
+  width: 50%;
 }
 
 .box {
