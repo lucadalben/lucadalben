@@ -113,6 +113,10 @@ a:hover {
 }
 
 @media (max-width: 1000px) {
+    .cursor {
+    opacity: 0;
+  }
+  
   .text {
     font-family: "Neue Haas Grotesk Display Pro", sans-serif;
     font-weight: 600;
