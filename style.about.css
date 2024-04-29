@@ -141,7 +141,15 @@ img {
     flex-wrap: wrap;
     position: relative;
   }
-
+  
+  /* Description*/
+  p {
+  color: white;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
+}
+  
   /* Contacts */
   .contacts {
     width: 100%;
