@@ -157,6 +157,14 @@ img:hover {
   .box {
     height: 50%;
   }
+
+    /* Description*/
+  p {
+  color: white;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
+  }
 }
 
 /*Footer Section*/
