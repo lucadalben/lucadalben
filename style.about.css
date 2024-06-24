@@ -179,6 +179,13 @@ img {
 }
 
 /* Paragraph */
+p {
+  color: white;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
 #description {
   color: white;
   font-size: 2rem;
